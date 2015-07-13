@@ -23,3 +23,9 @@ if (firstFunction() === undefined) {
 } else {
   "Function returns value";
 }
+
+if (secondFunction(2, 5) === undefined) {
+  "Function returns value";
+} else {
+  console.log("Function doesn't return value");
+}
