@@ -4,8 +4,8 @@ function firstFunction() {
    console.log(1 + 1);
  }
 
- function secondFunction() {
-   return 2 + 2;
+ function secondFunction(num1, num2) {
+   return num1 + num2;
  }
 
 //Since the firstFunction is using "console.log", the result of "1 + 1" will be
