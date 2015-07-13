@@ -16,4 +16,10 @@ firstFunction();
 //in JS when the function is called.  We can view the result of the secondFunction by
 //"console.logging" the secondFunction.  And as you can see, in the console log, the
 //firstFunction printed "2" and the secondFunction returned "4".
-console.log(secondFunction());
+console.log(secondFunction(2, 5));
+
+if (firstFunction() === undefined) {
+  console.log("Function doesn't return value");
+} else {
+  "Function returns value";
+}
